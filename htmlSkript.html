@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webbsite</title>
+
+    <!--Boxikoner-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script>
+        function loadNewPage() {
+            // Här läggs koden till för att byta till CV.html
+            window.location.href ="CV.html";
+        }
+    </script>
+<link rel="stylesheet" href="CVcss.css">
+</head>
+<body> <!-- HTML KODEN -->
+    <header class="header">
+        <a href="#" class="logo"> Noels Webbsite</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+    
+        <nav class="navbar">
+            <a href="#home"class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Home Section Design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, My name is</h3>
+            <h1>Noel Rydström</h1>
+            <h3> And I'm a <span class="multiple-text"></span></h3>
+            <p> Random text som ska ha någon mening men just nu så blir det här bara bra!</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#" class="CVbtn" onclick="loadNewPage()">Open CV</a>
+        </div>
+        <div class="home-img">
+            <img src="C:\Users\ironn\OneDrive\Bilder\output-onlinepngtools.png" alt="" >
+        </div>
+    </section>
+    <!--#about navbar-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="C:\Users\ironn\OneDrive\Bilder\projektimage1-modified.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Fullstack Developer!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nam dolore, alias nobis incidunt vero commodi quas! Voluptates quos dolor sapiente quis minima amet fugit neque, at delectus, commodi inventore suscipit quaerat nobis temporibus natus repellat! Tempore voluptatum soluta minus recusandae corrupti totam itaque doloribus quaerat!</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <!--Services section-->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo itaque dolorum explicabo laborum quis aspernatur? Eaque corporis omnis minima at.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo itaque dolorum explicabo laborum quis aspernatur? Eaque corporis omnis minima at.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo itaque dolorum explicabo laborum quis aspernatur? Eaque corporis omnis minima at.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+    <!--Portfolio Section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="C:\Users\ironn\OneDrive\Bilder\web-design-picture.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+    
+            <div class="portfolio-box">
+                <img src="C:\Users\ironn\OneDrive\Bilder\web-design-picture.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+    
+            <div class="portfolio-box">
+                <img src="C:\Users\ironn\OneDrive\Bilder\web-design-picture.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="C:\Users\ironn\OneDrive\Bilder\web-design-picture.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="C:\Users\ironn\OneDrive\Bilder\web-design-picture.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="C:\Users\ironn\OneDrive\Bilder\web-design-picture.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Noel Rydström</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!--Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed JS-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!--JS-->
+    <script src="JsSkript.js"></script>    
+
+</body>
+</html>
